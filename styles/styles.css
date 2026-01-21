@@ -205,7 +205,9 @@ td {
 .proximo-evento {
   box-shadow: 1px 1px 10px #FF0592;
   border-radius: 2rem;
+  width: 18rem;
 }
+
 
 .active {
   border-radius: 2rem;
