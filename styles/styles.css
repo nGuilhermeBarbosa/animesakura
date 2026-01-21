@@ -1,0 +1,237 @@
+canvas {
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+td a {
+  color: #FF0592;
+  text-decoration: none;
+}
+
+.calendario {
+  background-color: #FAFAFA;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 15px rgba(255, 5, 146, 0.3);
+}
+
+th,
+td {
+  background: #FAFAFA !important;
+  color: #FF0592 !important;
+}
+
+.table,
+.table th,
+.table td {
+  border: none !important;
+}
+
+.table-active {
+  background-color: #FF0592 !important;
+}
+
+.table-active>th,
+.table-active>td {
+  background-color: #FF0592 !important;
+  color: #FFF6FB !important;
+}
+
+.table-active>td>a {
+  color: #FFF6FB !important;
+}
+
+.table-active>th {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.table-active>td:first-of-type {
+  border-radius: 0;
+}
+
+.table-active>td:last-of-type {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.parallax {
+  height: 100vh;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0
+}
+
+.parallax-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(83, 59, 77, 0.4);
+  color: #F8F4EC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  z-index: 2
+}
+
+.parallax p {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: large;
+  color: #FFF6FB
+}
+
+.navbar-custom {
+  background-color: rgba(255, 190, 227, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(83, 59, 77, 0.15);
+  border: 1px solid rgba(255, 246, 251, 0.3);
+
+}
+
+.nav-link {
+  color: #533B4D !important;
+}
+
+.content {
+  min-height: 200vh;
+  background: url("../assets/background.jpg");
+}
+
+#eventos,
+#sobre,
+#fotos,
+#contato {
+  scroll-margin-top: 6rem;
+  padding: 4rem;
+  color: #533B4D
+}
+
+#eventos {
+  background-color: rgba(255, 246, 251, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+.calendario-geek {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .calendario-geek {
+    margin-top: 2rem;
+  }
+}
+
+#fotos {
+  background-color: rgba(255, 246, 251, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+#sobre {
+  background-color: #FDB7EA;
+  padding: 4rem;
+}
+
+#sobre p {
+  text-align: justify;
+}
+
+.finished {
+  text-decoration: line-through;
+  color: #F564A9
+}
+
+.sakura-image {
+  background-image: url("../assets/sakura-silhouette.png");
+  background-size: 190px;
+  background-repeat: no-repeat;
+  min-width: 200px;
+  min-height: 200px;
+  background-position: center;
+}
+
+#contato {
+  background-color: #F564A9;
+  padding-bottom: 4rem
+}
+
+#contato li {
+  list-style: none;
+}
+
+#contato span {
+  color: #FFF6FB;
+}
+
+#contato h3,
+#sobre h1 {
+  color: #FFF6FB !important
+}
+
+#contato a {
+  text-decoration: none;
+  color: #FFF6FB;
+}
+
+#bootstrap-gallery-carousel {
+  overflow: hidden;
+  isolation: isolate
+}
+
+.logo {
+  width: 50%;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.carousel {
+  box-shadow: 1px 1px 10px #FF0592;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+
+.proximo-evento {
+  box-shadow: 1px 1px 10px #FF0592;
+  border-radius: 2rem;
+}
+
+.active {
+  border-radius: 2rem;
+  background-color: #F564A9 !important;
+}
+
+h1,
+h2,
+h3 {
+  background: linear-gradient(90deg, rgba(255, 190, 227, 1) 0%, rgba(252, 91, 182, 1) 50%, rgba(255, 5, 146, 1) 100%) !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+
+.btn.btn-sakura {
+  display: inline-block;
+  background: linear-gradient(180deg, rgba(255, 190, 227, 1) 0%, rgba(252, 91, 182, 1) 50%, rgba(253, 67, 172, 1) 28%, rgba(255, 5, 146, 1) 100%);
+  color: #FFF6FB !important;
+  border: 0 solid #FF0592 !important;
+
+  box-shadow: 1px 1px 10px rgba(255, 5, 146, 1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.btn.btn-sakura:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 1px 30px rgba(255, 5, 146, 1);
+}

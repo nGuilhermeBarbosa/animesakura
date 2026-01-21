@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5286e857a2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+    <title>Anime Sakura 🌸</title>
+</head>
+
+<body>
+
+    <!-- PARALLAX -->
+    <section class="parallax">
+        <canvas></canvas>
+        <div class="parallax-overlay">
+            <div>
+                <img src="assets/logo-cut.png" class="logo" />
+                <p>Eventos Geek e Otaku desde 2020</p>
+                <Button class="btn btn-primary btn-sakura" onclick="window.location.href='#eventos'">Continuar</Button>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" width="100" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fotos">Fotos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- CONTEÚDO -->
+    <section class="content">
+
+
+        <section id="eventos">
+            <div class="container">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1>Próximo Evento</h1>
+                            <a href="./assets/carnaval.jpg" class="lg-item">
+                                <img src="./assets/carnaval.jpg" class="proximo-evento" width="300" />
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="calendario-geek">Calendário Geek</h1>
+                            <div class="calendario">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Evento</th>
+                                            <th scope="col">Data</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="finished">
+                                            <th scope="row">1</th>
+                                            <td><a href="./assets/piquenique.jpg" class="lg-item">Piquenique da
+                                                    Sakura</a></td>
+                                            <td>18 de Janeiro</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <th scope="row">2</th>
+                                            <td><a href="./assets/carnaval.jpg" class="lg-item">Carnaval da Sakura</a>
+                                            </td>
+                                            <td>16 de Fevereiro</td>
+                                        </tr>
+                                        <tr class="table">
+                                            <th scope="row">3</th>
+                                            <td><a href="./assets/k-pop.jpeg" class="lg-item">Encontro K-POP</a>
+                                            </td>
+                                            <td>22 de Março</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Cine Anime</td>
+                                            <td>12 de Abril</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Torneio de Yu-Gi-Oh!</td>
+                                            <td>17 de Maio</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Acampamento Caminho do Heroi</td>
+                                            <td>12 de Julho</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>Baladinha K-POP</td>
+                                            <td>19 de Julho</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" style="text-align: center;">
+                                                <a href="./assets/calendario.jpg" class="lg-item">...</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        </div>
+
+        <section id="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1>Sobre o Anime Sakura</h1>
+                        <p>
+                            O Anime Sakura é um projeto cultural independente que promove encontros geek e otaku desde
+                            2020, criando espaços seguros, criativos e acessíveis para fãs de cosplay, animes, K-pop e
+                            cultura pop em geral.
+                            Nossos eventos são pensados para toda a família, reunindo crianças, jovens e adultos em
+                            experiências que incentivam a convivência, a amizade, a expressão artística e o
+                            pertencimento à comunidade geek.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="sakura-image">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="fotos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h1>Galeria de Fotos</h1>
+                        <div id="bootstrap-gallery-carousel" class="carousel slide">
+                            <!-- Indicadores -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="3"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="4"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="5"></button>
+                            </div>
+
+                            <!-- Imagens -->
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <a href="./assets/fotos/20260118_162800.jpg" class="lg-item">
+                                        <img src="./assets/fotos/20260118_162800.jpg" class="d-block w-100" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/MTXX_20260118_171810156.jpg" class="lg-item">
+                                        <img src="./assets/fotos/MTXX_20260118_171810156.jpg" class="d-block w-100"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/IMG-20260118-WA0087.jpg" class="lg-item">
+                                        <img src="./assets/fotos/IMG-20260118-WA0087.jpg" class="d-block w-100" alt="">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/MTXX_20260118_151019323.jpg" class="lg-item">
+                                        <img src="./assets/fotos/MTXX_20260118_151019323.jpg" class="d-block w-100"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/20260118_142020.jpg" class="lg-item">
+                                        <img src="./assets/fotos/20260118_142020.jpg" class="d-block w-100" alt="">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/MTXX_20260118_164015347.jpg" class="lg-item">
+                                        <img src="./assets/fotos/MTXX_20260118_164015347.jpg" class="d-block w-100"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!-- Controles -->
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#bootstrap-gallery-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#bootstrap-gallery-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        </div>
+
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9">
+                        <div class='pt-5 footer-icon'>
+                            <h3>Contato</h3>
+                            <li>
+                                <i class="fa-brands fa-instagram" style="color: #FFF6FB"></i>
+                                <span><a href="https://www.instagram.com/animesakuraevento/"
+                                        target="_blank">@animesakuraevento</a></span>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-whatsapp" style="color: #FFF6FB"></i>
+                                <span><a href="https://wa.me/12997555908" target="_blank">(12) 99755-5908</a></span>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-whatsapp" style="color: #FFF6FB"></i>
+                                <span><a href="https://chat.whatsapp.com/LYalTJX63AE0MFXnHuWOSq?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+                                        target="_blank">Eventos - Sakura Friends</a></span>
+                            </li>
+                            <!-- <li>
+                                <i class="fa-brands fa-tiktok" style="color: #FFF6FB"></i>
+                                <span><a href="" target="_blank">@saskya_cherry</a></span>
+                            </li> -->
+                            <li>
+                                <i class="fa-regular fa-envelope" style="color: #FFF6FB"></i>
+                                <span>animesakuraevento@gmail.com</span>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-center">
+                        <span>
+                            Anime Sakura
+                            <script>
+                                let year = new Date().getFullYear();
+                                document.write(year);
+                            </script>
+                        </span>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            // Carousel
+            const carouselEl = document.getElementById('bootstrap-gallery-carousel');
+            new bootstrap.Carousel(carouselEl, {
+                ride: 'carousel',
+                interval: 3000,
+                wrap: true
+            });
+
+            // LightGallery
+            const gallery = document.querySelector('.carousel-inner');
+            lightGallery(gallery, {
+                selector: '.lg-item',
+                plugins: [lgThumbnail],
+                speed: 300,
+                download: false
+            });
+
+            const gallery_evento = document.querySelector('.col-lg-6');
+            lightGallery(gallery_evento, {
+                selector: '.lg-item',
+                plugins: [lgThumbnail],
+                speed: 300,
+                download: true
+            });
+
+            const gallery_table = document.querySelector('.table');
+            lightGallery(gallery_table, {
+                selector: '.lg-item',
+                speed: 300,
+                download: false
+            });
+        });
+
+    </script>
+    <script src="./scripts/sakura.js"></script>
+
+</body>
+
+</html>
