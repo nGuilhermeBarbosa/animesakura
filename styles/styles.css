@@ -58,6 +58,11 @@ td {
   border-bottom-right-radius: 1rem;
 }
 
+.text-shadow {
+  text-shadow: 1px 1px 5px rgba(255, 5, 146, 0.7);
+  color: #F8F4EC;
+}
+
 .parallax {
   height: 100vh;
   background-image: url("../assets/background.jpg");
