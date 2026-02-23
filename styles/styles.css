@@ -15,7 +15,8 @@ td a {
   background-color: #FAFAFA;
   padding: 2rem;
   border-radius: 2rem;
-  box-shadow: 0 4px 15px rgba(255, 5, 146, 0.3);
+  /* box-shadow: 0 4px 15px rgba(255, 5, 146, 0.3); */
+  box-shadow: 0px 5px 8px rgba(255, 5, 146, 0.3);
 }
 
 th,
@@ -98,7 +99,7 @@ td {
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 20px rgba(83, 59, 77, 0.15);
   border: 1px solid rgba(255, 246, 251, 0.3);
-
+  border-radius: 0 0 2rem 2rem;
 }
 
 .nav-link {
@@ -145,7 +146,7 @@ td {
 }
 
 #sobre p {
-  text-align: justify;
+  text-align: left;
 }
 
 .finished {
@@ -202,13 +203,15 @@ td {
 }
 
 .carousel {
-  box-shadow: 1px 1px 10px #FF0592;
+  /* box-shadow: 1px 1px 10px #FF0592; */
+  box-shadow: 0px 5px 8px rgba(255, 5, 146, 0.3);
   border-radius: 2rem;
   background-color: #fff;
 }
 
 .proximo-evento {
-  box-shadow: 1px 1px 10px #FF0592;
+  /* box-shadow: 1px 1px 10px #FF0592; */
+  box-shadow: 0px 5px 8px rgba(255, 5, 146, 0.3);
   border-radius: 2rem;
   width: 18rem;
 }
