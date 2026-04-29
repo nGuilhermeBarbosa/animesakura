@@ -110,7 +110,8 @@
                                         </tr>
                                         <tr class="table-active">
                                             <th scope="row">5</th>
-                                            <td><a href="./assets/tornio-yugioh.jpeg" class="lg-item">Torneio de Yu-Gi-Oh!</a></td>
+                                            <td><a href="./assets/tornio-yugioh.jpeg" class="lg-item">Torneio de
+                                                    Yu-Gi-Oh!</a></td>
                                             <td>17 de Maio</td>
                                         </tr>
                                         <tr>
@@ -209,12 +210,57 @@
                                     data-bs-slide-to="18"></button>
                                 <button type="button" data-bs-target="#bootstrap-gallery-carousel"
                                     data-bs-slide-to="19"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="20"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="21"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="22"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="23"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="24"></button>
+                                <button type="button" data-bs-target="#bootstrap-gallery-carousel"
+                                    data-bs-slide-to="25"></button>
                             </div>
 
                             <!-- Imagens -->
                             <div class="carousel-inner">
 
                                 <div class="carousel-item active">
+                                    <a href="./assets/fotos/cineanime.jpeg" class="lg-item">
+                                        <img src="./assets/fotos/cineanime.jpeg" class="d-block w-100" alt="">
+                                    </a>
+                                    <div class="carousel-caption d-none d-md-block text-shadow">
+                                        <h5>Cine Anime</h5>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/cineanime2.jpeg" class="lg-item">
+                                        <img src="./assets/fotos/cineanime2.jpeg" class="d-block w-100" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/cineanime3.jpeg" class="lg-item">
+                                        <img src="./assets/fotos/cineanime3.jpeg" class="d-block w-100" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/cineanime4.jpeg" class="lg-item">
+                                        <img src="./assets/fotos/cineanime4.jpeg" class="d-block w-100" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a href="./assets/fotos/cineanime5.jpeg" class="lg-item">
+                                        <img src="./assets/fotos/cineanime5.jpeg" class="d-block w-100" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
                                     <a href="./assets/fotos/kpop1.jpeg" class="lg-item">
                                         <img src="./assets/fotos/kpop1.jpeg" class="d-block w-100" alt="">
                                     </a>
@@ -427,7 +473,15 @@
             new bootstrap.Carousel(carouselEl, {
                 ride: 'carousel',
                 interval: 3000,
-                wrap: true
+                wrap: true,
+                controls: true,
+                counter: true,
+                closable: true,
+                showCloseIcon: true,
+                mobileSettings: {
+                    controls: true,
+                    showCloseIcon: true
+                }
             });
 
             // LightGallery
